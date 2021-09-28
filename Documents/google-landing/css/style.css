@@ -1,0 +1,141 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    font-size: 13px;
+    font-family: sans-serif;
+    flex-direction: column;
+  }
+  
+  .nav {
+    padding: 20px;
+    text-align: right;
+  }
+  
+  .nav-link {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  section {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+  }
+  
+  input {
+    width: 600px;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    padding-left: 60px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 223, 223);
+  }
+  
+  input:focus {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+  }
+  
+  input:hover {
+    border: 1px solid white;
+    outline: 0px solid white;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+  }
+  
+  .buttons {
+    width: 100%;
+    margin-top: 5px;
+    box-align: left;
+    display: inline-block;
+  }
+  
+  button {
+    margin: 5px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #5d5d5d;
+    border-radius: 5px;
+    background-color: #F6F7F9;
+  }
+  
+  button:hover {
+    color: black;
+    border: 0.5px solid #bfbfbf;
+    box-shadow: 0px 0.5px 2px 1px rgb(223, 223, 223);
+    cursor: pointer;
+  }
+  
+  .mic {
+    top: 5px;
+    width: 24px;
+    left: -50px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .search {
+    top: 35px;
+    right: 300px;
+    position: relative;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .languages-header > a {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  
+  footer {
+    margin-top: auto;
+    font-size: 14px;
+  }
+  
+  footer > div {
+    padding: 15px;
+    background-color: #f2f2f2;
+  }
+  
+  footer * a {
+    margin-left: 25px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  .top-footer {
+    border-bottom: 1px solid#D1D4D9;
+    font-size: 15px;
+  }
+
+  .second {
+    display: flex;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  
