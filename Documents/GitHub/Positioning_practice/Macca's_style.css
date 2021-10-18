@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold
+}
+
+header {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 50px;
+    background-color: #6F7373;
+    font-size: 24px;
+    
+}
