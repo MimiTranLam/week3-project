@@ -41,12 +41,12 @@ setTimeout(() => {document.getElementById("btns-box").style.display = "inline-fl
 
 document.getElementById("yes-btn").addEventListener("click", () => {
 	document.body.removeChild(messageWrapper);
-	login();
+	signUp();
 });
 
 document.getElementById("no-btn").addEventListener("click", () => {
 	document.body.removeChild(messageWrapper);
-	signUp();
+	login();
 });
 
 let users = [];
@@ -69,6 +69,10 @@ const login = () => {
 		</div>
 	</div>
 	`
+
+	document.getElementById("login-btn").addEventListener("click", () => {
+		home();
+	});
 
 	//take these inputs and filter through users array to find a match
 	//if match, load next part.

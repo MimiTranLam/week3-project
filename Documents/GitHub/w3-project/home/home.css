@@ -8,6 +8,24 @@ i {
     cursor: pointer;
 }
 
+nav {
+    padding: 10px;
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+}
+
+.nav-container {
+    width: inherit;
+    display: flex;
+}
+
+nav .user-profile {
+    margin: 0;
+    position: absolute;
+    right: 0px;
+}
+
 #favourites .favourites-container {
     margin: 10vh auto;
     padding: 50px;
